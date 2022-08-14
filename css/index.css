@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,8 +23,8 @@ body {
 
 .navbar {
     display: flex;
-    margin-top: 40px;
-    margin-left: 70px;
+    padding-top: 10px;
+    margin-left: 40px;
 
 
 }
@@ -33,7 +34,7 @@ body {
     color: #F0F4F6;
     font-style: solid;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 40px;
     width: 10%
 }
@@ -49,7 +50,7 @@ body {
 .items {
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 50px;
     margin-top: 50px;
     margin-right: 30px;
 
@@ -61,7 +62,7 @@ body {
     color: #F0F4F6;
     font-family: 'Lucida Sans', Verdana, sans-serif;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 20px;
 }
 
@@ -75,7 +76,9 @@ body {
 }
 
 .call-section>svg {
-    margin-top: -80px;
+   position: absolute;
+   top: 2%;
+   right: 15%;
 
 }
 
@@ -96,13 +99,13 @@ body {
 
 .content {
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .heading {
-    width: 58%;
+    width: 50%;
     color: #F0F4F6;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 70px;
     font-family:  'Poppins', sans-serif;
     font-weight: 600;
@@ -111,33 +114,37 @@ body {
 }
 
 .card-one {
-    margin-left: 1300px;
-    margin-top: -300px;
+    margin-left: 700px;
+    
     text-align: center;
-    width: 445px;
-    height: 250px;
-    padding: 0.5rem 1.3rem;
+    width: 400px;
+    height: 200px;
+    padding: 2px 10px;
     background: #cecece84;
     position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
     box-shadow: 0 1px 3px #0000004c;
 }
 
 .icon-one {
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-bottom: 0px;
 }
 
 .card-one-txt {
+    margin-top: -30px;
     color: #F0F4F6;
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    margin-top: -30px;
     text-align: center;
 }
 
 .line-one {
     border: 1px solid #F0F4F6;
-    height: 100px;
+    height: 90px;
     position: absolute;
     left: 60%;
     top: 100%
@@ -172,24 +179,29 @@ body {
 
 .card-two {
     
-    margin-left: 700px;
-    width: 400px;
+ 
+    width: 300px;
     height: 200px;
-    padding: 0.5rem 1.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
     background: #cecece84;
     position: absolute;
+    left: 40%; 
+    top: 65%;
     text-align: center;
     box-shadow: 0 1px 3px #0000004c;
 }
 
 .icon-two {
-    margin-right: 50px;
-    margin-left: -250px;
+    margin-left: -200px;
+    margin-bottom: 0px;
+    
 }
 
 .card-two-txt {
     color: #F0F4F6;
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-top: -30px;
@@ -200,7 +212,7 @@ body {
     flex-direction: row;
     border: 1px solid #F0F4F6;
     width: 100px;
-   position: absolute;
+    position: absolute;
     left: 100%;
     top: 30%
 }
@@ -214,7 +226,7 @@ body {
     width: 20px;
     border: 2px solid #F0F4F6;
     background-color: #F0F4F6;
-    left: 120%;
+    left: 130%;
     top: 26%;
  
 }

@@ -18,7 +18,6 @@ body {
 .container {
     width: 100%;
     height: 100vh
-
 }
 
 .navbar {
@@ -76,9 +75,9 @@ body {
 }
 
 .call-section>svg {
-   position: absolute;
-   top: 2%;
-   right: 15%;
+    position: absolute;
+    top: 2%;
+    right: 15%;
 
 }
 
@@ -107,7 +106,7 @@ body {
     color: #F0F4F6;
     font-size: 30px;
     margin-left: 70px;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: solid;
     margin-top: 90px;
@@ -115,7 +114,7 @@ body {
 
 .card-one {
     margin-left: 700px;
-    
+
     text-align: center;
     width: 400px;
     height: 200px;
@@ -178,8 +177,8 @@ body {
 }
 
 .card-two {
-    
- 
+
+
     width: 300px;
     height: 200px;
     padding-left: 10px;
@@ -187,7 +186,7 @@ body {
     padding-bottom: 50px;
     background: #cecece84;
     position: absolute;
-    left: 40%; 
+    left: 40%;
     top: 65%;
     text-align: center;
     box-shadow: 0 1px 3px #0000004c;
@@ -196,7 +195,7 @@ body {
 .icon-two {
     margin-left: -200px;
     margin-bottom: 0px;
-    
+
 }
 
 .card-two-txt {
@@ -207,6 +206,7 @@ body {
     margin-top: -30px;
 
 }
+
 .line-two {
     display: flex;
     flex-direction: row;
@@ -217,7 +217,7 @@ body {
     top: 30%
 }
 
-.circle-two{
+.circle-two {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -228,5 +228,140 @@ body {
     background-color: #F0F4F6;
     left: 130%;
     top: 26%;
- 
+
+}
+
+
+/* making website responsive */
+
+@media screen and (max-width: 780px) {
+    body {
+        background-image: url(../images/interior.jpg);
+        background-repeat: no-repeat;
+
+        background-attachment: fixed;
+        background-size: cover
+    }
+
+    .container {
+        width: 680px;
+    }
+
+    .navbar {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+
+    .call-section>svg {
+
+        position: absolute;
+        top: 75%;
+        left: 0%;
+
+
+    }
+
+    .content {
+
+        width: 400px;
+        height: 200px;
+    }
+
+    .heading {
+        width: 600px;
+    }
+
+    .card-one {
+        margin-left: 0px;
+        margin-top: 1100px;
+        width: 300px;
+
+    }
+
+    .btn {
+        margin-top: 650px;
+        margin-left: 100px;
+
+
+    }
+
+    .card-two {
+        margin-top: 600px;
+        left: 10%;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    .container {
+        width: 380px;
+    }
+
+    .navbar {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+
+    .call-section>svg {
+
+        position: absolute;
+        left: -22%;
+
+
+
+    }
+
+    .interior-text {
+
+        width: 200px;
+        height: 200px;
+        font-size: 35px;
+
+    }
+
+    .card-one {
+        margin-left: 0px;
+        margin-top: 1200px;
+        width: 300px;
+
+    }
+
+    .btn {
+        margin-top: 800px;
+        margin-left: 100px;
+
+
+    }
+
+    .card-two {
+        margin-top: 700px;
+        left: 10%;
+    }
 }
